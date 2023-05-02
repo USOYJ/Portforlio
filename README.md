@@ -8,6 +8,6 @@ couple of things I did on this project:
 <li> Kept it simple</li>
 </ul> 
 
-<p>some of the places I got inspiration fron was Angela Yu's course on Udemy and past recording of classes in zoom. </p>
+<p>some of the places I got inspiration fron was Angela Yu's course on Udemy,past recording of classes in zoom and w3schools.com </p>
 
 
