@@ -37,3 +37,14 @@ nav a {
     color: #fff;
     text-decoration: none;
 }
+
+a:link,
+a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid #c35bd0;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+}
