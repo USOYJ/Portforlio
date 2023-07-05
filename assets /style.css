@@ -301,13 +301,8 @@ footer {
 
 
 @media screen and (max-width: 600px) {
-  h1 {
-    font-size: 36px;
-    
-  } .hero {
-    height: 50px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
