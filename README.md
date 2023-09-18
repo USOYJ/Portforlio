@@ -18,8 +18,8 @@ HTML, CSS.
 
   <img width="1440" alt="2nd page" src="https://github.com/USOYJ/Portforlio/assets/125850331/33d5cd05-e8d8-429f-8b98-69366441b41e">
 
-  
-<img width="1440" alt="3rd page" src="https://github.com/USOYJ/Portforlio/assets/125850331/4a5255c3-35d3-41f6-8af1-ce5a61d3e324">
+  <img width="1425" alt="Screenshot 2023-09-17 at 9 15 15 PM" src="https://github.com/USOYJ/Portforlio/assets/125850331/f71967d6-d769-49f1-8c34-f01080acbee7">
+
 
 
 <img width="1440" alt="4th page" src="https://github.com/USOYJ/Portforlio/assets/125850331/2e125920-c68b-4a9c-a4ad-ec4d90de528a">
