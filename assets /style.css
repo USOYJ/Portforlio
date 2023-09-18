@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  max-width: 0 auto;
+  margin: 0;
   padding: 0;
   font-family: 'Lobster Two', cursive;
 }
@@ -8,7 +8,7 @@
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url(./web\ photo.jpg);
+  background-image: url('./web-photo.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -17,9 +17,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 45px;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding: 20px 8%;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .logo {
@@ -33,10 +32,14 @@ span {
   color: hotpink;
 }
 
-nav ul li {
+nav ul {
   list-style-type: none;
-  display: inline-block;
-  padding: 10px 25px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 25px;
 }
 
 nav ul li a {
@@ -48,22 +51,7 @@ nav ul li a {
 
 nav ul li a:hover {
   color: hotpink;
-  transition: .4s;
-}
-
-.btn {
-  background-color: hotpink;
-  color: white;
-  text-decoration: none;
-  border: 2px solid transparent;
-  font-weight: bold;
-  padding: 10px 25px;
-  border-radius: 30px;
-
-}
-
-.btn:hover {
-  transition: transform .4s;
+  transition: 0.4s;
 }
 
 .content {
@@ -71,36 +59,37 @@ nav ul li a:hover {
   top: 50%;
   left: 8%;
   transform: translateY(-50%);
+  text-align: center;
 }
 
 h1 {
   color: white;
-  margin: 20px 0px 20px;
-  font-size: 75px;
+  margin: 20px 0;
+  font-size: 4rem;
 }
 
 h3 {
   color: white;
-  font-size: 25px;
+  font-size: 1.5rem;
   margin-bottom: 50px;
 }
 
 h4 {
   color: white;
   letter-spacing: 2px;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .newsletter form {
-  width: 380px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 380px;
   position: relative;
+  margin: 0 auto;
 }
 
 .newsletter form input:first-child {
-  display: inline-block;
   width: 100%;
-  padding: 14px 130px 14px 15px;
+  padding: 14px 15px;
   border: 2px solid hotpink;
   outline: none;
   border-radius: 30px;
@@ -108,7 +97,6 @@ h4 {
 
 .newsletter form input:last-child {
   position: absolute;
-  display: inline-block;
   outline: none;
   border: none;
   padding: 10px 30px;
@@ -122,30 +110,33 @@ h4 {
 
 .about {
   width: 100%;
-  padding: 100px 0px;
+  padding: 100px 0;
   background-color: #191919;
 }
 
 .about img {
+  max-width: 100%;
   height: auto;
 }
 
 .about-text {
-  width: 550px;
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .main {
-  width: 70%;
-  max-width: 95%;
-  margin: 0 auto;
+  width: 100%;
+  padding: 0 5%;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
 }
 
 .about-text h2 {
   color: black;
-  font-size: 75px;
+  font-size: 3rem;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
@@ -153,7 +144,7 @@ h4 {
 .about-text h5 {
   color: black;
   letter-spacing: 2px;
-  font-size: 22px;
+  font-size: 1.5rem;
   margin-bottom: 25px;
   text-transform: capitalize;
 }
@@ -161,8 +152,8 @@ h4 {
 .about-text p {
   font-family: 'Times New Roman', Times, serif;
   letter-spacing: 1px;
-  line-height: 28px;
-  font-size: 18px;
+  line-height: 1.6;
+  font-size: 1rem;
   margin-bottom: 45px;
 }
 
@@ -174,7 +165,7 @@ button {
   font-weight: bold;
   padding: 13px 30px;
   border-radius: 30px;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 button:hover {
@@ -186,13 +177,13 @@ button:hover {
 .service {
   background: #101010;
   width: 100%;
-  padding: 100px 0px;
+  padding: 100px 0;
 }
 
 .title h2 {
   color: white;
-  font-size: 75px;
-  width: 1130px;
+  font-size: 3rem;
+  max-width: 1130px;
   margin: 30px auto;
   text-align: center;
 }
@@ -219,20 +210,20 @@ button:hover {
   font-size: 50px;
   display: block;
   text-align: center;
-  margin: 25px 0px;
+  margin: 25px 0;
   color: hotpink;
 }
 
 h5 {
   color: white;
-  font-size: 23px;
+  font-size: 1.5rem;
   margin-bottom: 15px;
 }
 
 .pra p {
   color: greenyellow;
-  font-size: 16px;
-  line-height: 27px;
+  font-size: 1rem;
+  line-height: 1.6;
   margin-bottom: 25px;
 }
 
@@ -244,7 +235,7 @@ h5 {
   font-weight: bold;
   padding: 9px 22px;
   border-radius: 30px;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .card .button:hover {
@@ -265,7 +256,7 @@ h5 {
 
 .contact-me p {
   color: white;
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 25px;
 }
@@ -278,7 +269,7 @@ h5 {
   font-weight: bold;
   padding: 9px 22px;
   border-radius: 30px;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .contact-me .button-two:hover {
@@ -297,28 +288,4 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-
-@media screen and (min-width: 768px) {
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-}
-
-@media screen and (max-width: 767px) and (orientation: portrait) {
-}
-
-@media screen and (max-width: 767px) {
-}
-
-@media screen and (min-width: 1200px) {
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-       only screen and (min-resolution: 192dpi) {
-
-}
-
-@media (color-gamut: srgb) {
 }
