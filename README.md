@@ -21,8 +21,8 @@ HTML, CSS.
   <img width="1425" alt="Screenshot 2023-09-17 at 9 15 15 PM" src="https://github.com/USOYJ/Portforlio/assets/125850331/f71967d6-d769-49f1-8c34-f01080acbee7">
 
 
+![image](https://github.com/USOYJ/Portforlio/assets/125850331/d0a2d46d-ee5b-4627-973a-e7e5ec801ac5)
 
-<img width="1440" alt="4th page" src="https://github.com/USOYJ/Portforlio/assets/125850331/2e125920-c68b-4a9c-a4ad-ec4d90de528a">
 
  </p>
 
